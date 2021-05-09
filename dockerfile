@@ -1,0 +1,4 @@
+FROM mysql
+COPY ./scriptmysql ./scriptmysql
+ENV  MYSQL_ROOT_PASSWORD=Int221039098103
+EXPOSE 3306:3306
