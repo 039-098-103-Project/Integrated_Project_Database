@@ -6,7 +6,3 @@ services:
    ports:
      - "3306:3306"
 
-networks:
-      default:
-        external:
-          name: project221
