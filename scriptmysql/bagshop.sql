@@ -7,6 +7,8 @@
 
 CREATE Database bagshop;
 
+use bagshop;
+
 CREATE TABLE BagType
   (
     BagTypeID   INTEGER NOT NULL,
