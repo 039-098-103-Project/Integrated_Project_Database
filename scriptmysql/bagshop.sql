@@ -130,6 +130,7 @@ Insert into ProductDetail values (11, 6);
 Insert into ProductDetail values (11, 8);
 Insert into ProductDetail values (12, 7);
 Insert into ProductDetail values (12, 10);
+Drop user if exists 'backend'@'%';
 
 create user 'backend'@'%' identified by 'GJM039098103';
 grant select, insert, update, delete on Product to 'backend'@'%';
