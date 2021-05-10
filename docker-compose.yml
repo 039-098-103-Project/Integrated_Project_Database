@@ -4,6 +4,7 @@ services:
    build: .
    container_name: mysql
    volumes:
+    - ./scriptmysql/mysql-data:/var/lib/mysql
     - ./scriptmysql/:/docker-entrypoint-initdb.d
    ports:
      - "3306:3306"
